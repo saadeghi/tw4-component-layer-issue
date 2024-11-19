@@ -510,6 +510,10 @@
   }
 }
 @layer utilities {
+  .bigcard {
+    background: green;
+    padding: 2rem;
+  }
   .p-10 {
     padding: calc(var(--spacing) * 10);
   }
