@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "scripts": {
+    "build": "npx @tailwindcss/cli@next -i input.css -o output.css"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.0.0-alpha.34",
+    "vite": "^5.4.10"
+  }
+}
